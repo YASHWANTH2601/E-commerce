@@ -1,0 +1,87 @@
+.productContainers {
+  height: 100vh;
+}
+.typesOfPlants {
+  margin: 0px 30px;
+}
+.searchBarContainer {
+  margin: 0px auto;
+  width: 370px;
+  height: 26px;
+  border: 1px;
+  margin-bottom: 30px;
+}
+.searchIcon {
+  width: 18.33px;
+  height: 18.33px;
+  margin-right: 20px;
+  opacity: 0.8;
+}
+.plantIcon {
+  width: 25px;
+  height: 25px;
+  opacity: 0.8;
+}
+.searchBar {
+  border: none;
+}
+.searchBar::placeholder {
+  width: 101px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.searchBarLine {
+  margin-top: 5px;
+  width: 65%;
+}
+
+.plants {
+  display: inline;
+  width: 114px;
+  background-color: #165315;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 0px 20px;
+}
+
+.pots {
+  display: inline;
+  width: 114px;
+  border: 1px solid #0000004d;
+  font-family: Poppins;
+  font-size: 15 px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  padding: 0px 20px;
+}
+
+.plantDetail {
+  font-family: Poppins;
+  font-size: 16px;
+  /* font-weight: 400; */
+  line-height: 24px;
+  /* text-align: left; */
+  color: #838383;
+  margin-top: 20px;
+}
+@media screen and (min-width: 756px) {
+  .plantDetail {
+    height: 99px;
+  }
+}
+@media screen and (max-width: 756px) {
+  .plantDetail {
+    height: 99px;
+    overflow: hidden;
+  }
+}

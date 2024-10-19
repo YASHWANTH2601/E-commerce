@@ -1,0 +1,197 @@
+.footerContainer {
+  background-color: #f0ffe5;
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* position: absolute;
+  bottom: 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.aboutService,
+.usefulTouch {
+  display: flex;
+  flex-direction: row;
+}
+.footerTopHeading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.footerTopContainer {
+  display: flex;
+  flex-direction: column;
+}
+.subscribeContainer {
+  width: 300px;
+}
+.subscribePara {
+  width: 283px;
+  height: 45px;
+  color: #838383;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+.emailInput {
+  width: 269px;
+  height: 35px;
+  border: 1px;
+  border: 1px solid #0000004d;
+}
+.emailInput::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #999999;
+}
+.subscribeBtn {
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: #247822;
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+
+.aboutContainer {
+  width: 200px;
+  height: 165px;
+}
+.serviceContainer {
+  width: 200px;
+  height: 164px;
+}
+.usefulContainer {
+  width: 200px;
+  height: 198px;
+}
+
+.touchContainer {
+  width: 218px;
+  height: 237px;
+}
+.para {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
+  text-align: left;
+  color: #999999;
+}
+/* middle of the contsiner */
+.footerMidContainer {
+  text-align: center;
+  margin-top: 30px;
+}
+.midHeading {
+  width: 258px;
+  height: 33px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+}
+.midPara {
+  color: #838383;
+  height: 75px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.followHeading {
+  width: 204px;
+  height: 33px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  text-align: center;
+}
+.imgs {
+  width: 26px;
+}
+.FooterLogoContainer {
+  display: flex;
+  list-style: none;
+}
+.FooterLogoContainer > li {
+  margin-right: 20px;
+}
+.line {
+  width: 100%;
+}
+.copyRights {
+  color: #0000004d;
+  width: 384px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin: 0px;
+}
+@media (min-width: 756px) {
+  .footerContainer {
+    height: 518px;
+  }
+  .footerTopContainer {
+    flex-direction: row;
+  }
+  .midHeading {
+    text-align: left;
+    /* margin-right: auto; */
+  }
+  .midPara {
+    width: 1175px;
+    text-align: left;
+  }
+  .subscribeContainer {
+    margin-right: 20px;
+  }
+  .serviceContainer {
+    margin-left: 20px;
+  }
+  .footerBottom {
+    align-self: flex-start;
+  }
+  .copyRights {
+    align-self: flex-start;
+  }
+}
+@media (max-width: 756px) {
+  .footerContainer {
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+  }
+  .subscribeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .aboutService {
+    margin-bottom: 80px;
+  }
+  .midHeading {
+    margin: 0px auto;
+  }
+  .midPara {
+    height: 100px;
+    overflow: hidden;
+  }
+  .footerMidContainer {
+    margin-bottom: 20px;
+  }
+  .copyRights {
+    align-self: center;
+  }
+}

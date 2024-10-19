@@ -1,0 +1,52 @@
+.offerContainer {
+  padding-top: 10px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 100%;
+  background-color: #165315;
+}
+.offer-Banner {
+  justify-self: center;
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: center;
+}
+.phone-number {
+  justify-self: flex-end;
+  /* align-self: flex-start; */
+  text-align: left;
+  /* margin-left: 100px; */
+  margin-left: auto;
+  margin-right: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: center;
+}
+.navLogo {
+  width: 60px;
+  height: 61px;
+}
+.navHeading {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+}
+.cartImg {
+  width: 25px;
+}
+
+@media (max-width: 1024px) {
+  .rightContainer {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .rightContainer {
+    display: flex;
+  }
+}
