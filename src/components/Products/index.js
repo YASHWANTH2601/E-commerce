@@ -3,6 +3,10 @@ import React, { Component } from "react";
 import Footer from "../Footer";
 import Header from "../Header";
 import "./index.css";
+const NurseryList = [
+  { id: 1, imgUrl: "http://surl.li/zxzlqa" },
+  { id: 2, imgUrl: "http://surl.li/zxzlqa" },
+];
 export default class Products extends Component {
   render() {
     return (

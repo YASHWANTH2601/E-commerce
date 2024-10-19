@@ -137,9 +137,6 @@
   margin: 0px;
 }
 @media (min-width: 756px) {
-  .footerContainer {
-    height: 518px;
-  }
   .footerTopContainer {
     flex-direction: row;
   }
