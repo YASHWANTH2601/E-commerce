@@ -1,0 +1,37 @@
+.cartItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: gray 0.5px solid;
+  border-radius: 10px;
+  padding: 20px 0px;
+  margin-bottom: 10px;
+}
+
+.cartItemImg {
+  width: 100px;
+  height: 110px;
+}
+
+.quantityContainer {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quantitys {
+  margin: 0px;
+}
+
+.removeItem {
+  border: none;
+  background-color: transparent;
+}
+
+.btns {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}

@@ -37,16 +37,38 @@
   text-align: left;
 }
 .cartImg {
-  width: 25px;
+  width: 30px;
+  position: relative;
 }
-
+.numberCount {
+  position: absolute;
+  width: 19px;
+  height: 20px;
+  background: #f3a939;
+  border-radius: 10px;
+  padding-left: 6px;
+}
 @media (max-width: 1024px) {
   .rightContainer {
     display: none;
+  }
+  .mobileCart {
+    display: flex;
+  }
+  .numberCount {
+    top: 10px;
+    right: 80px;
   }
 }
 @media (min-width: 1024px) {
   .rightContainer {
     display: flex;
+  }
+  .mobileCart {
+    display: none;
+  }
+  .numberCount {
+    top: 10px;
+    right: 50px;
   }
 }

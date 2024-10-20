@@ -1,0 +1,17 @@
+.cardContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 0px;
+}
+
+.removeAllBtn {
+  margin: 50px 0px 50px auto;
+}
+
+.listContainers {
+  width: 100%;
+}
