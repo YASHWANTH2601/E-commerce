@@ -1,8 +1,5 @@
-# React Navbar Project
 
-This project contains a React-based web application with a responsive navbar that uses Bootstrap 5.
-
-## Project Setup and Installation
+## React Project Setup and Installation
 
 To run this project locally, follow these steps:
 
